@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -8,8 +9,13 @@ import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 })
 export class FooterComponent implements OnInit {
 
-  faGithub = faGithub;
-  faTwitter = faTwitter;
+  links = [
+    { href: 'https://github.com/theaswanson', icon: faGithub },
+    { href: 'https://twitter.com/crisp2020', icon: faTwitter },
+    { href: 'https://linkedin.com/in/adam-swanson/', icon: faLinkedin},
+    { href: 'https://discord.gg/tCMt5p', icon: faDiscord },
+    { href: 'mailto:layersevenmail@gmail.com', icon: faEnvelope },
+  ]
 
   constructor() { }
 
