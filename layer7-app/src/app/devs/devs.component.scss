@@ -1,0 +1,33 @@
+.title {
+  padding-bottom: 1.75rem;
+
+  h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+}
+
+.developers {
+  padding: 2rem;
+  background-color: rgb(40, 40, 40);
+
+  .developer {
+    .image {
+      padding-bottom: 2rem;
+
+      img {
+        height: 150px;
+        width: 150px;
+        filter: drop-shadow(10px 10px 2px black);
+      }
+    }
+
+    .name {
+      font-size: 1.25rem;
+      font-weight: 300;
+      padding-bottom: 1rem;
+    }
+  }
+}

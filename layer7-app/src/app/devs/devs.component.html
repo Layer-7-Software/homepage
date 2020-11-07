@@ -1,0 +1,18 @@
+<div class="developers">
+  <div class="title">
+    <h1>Developers</h1>
+  </div>
+  <div class="developer" *ngFor="let developer of developers">
+    <div class="image">
+      <a [href]="developer.link" target="_blank">
+        <img [src]="[developer.img]" />
+      </a>
+    </div>
+    <div class="name">{{developer.name}}</div>
+    <div class="icon-row">
+      <a [href]="[link.href]" target="_blank" *ngFor="let link of developer.links">
+        <fa-icon [icon]="link.icon" size="lg"></fa-icon>
+      </a>
+    </div>
+  </div>
+</div>

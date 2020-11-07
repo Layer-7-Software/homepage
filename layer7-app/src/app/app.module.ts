@@ -7,16 +7,19 @@ import { RouterModule, Routes } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { DevsComponent } from './devs/devs.component';
 
 const ROUTES = [
-  { path: '', component: HomeComponent }
+  { path: '', component: HomeComponent },
+  { path: 'devs', component: DevsComponent },
 ] as Routes;
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    DevsComponent
   ],
   imports: [
     BrowserModule,
