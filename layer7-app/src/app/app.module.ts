@@ -23,7 +23,7 @@ const ROUTES = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES),
+    RouterModule.forRoot(ROUTES, { relativeLinkResolution: 'legacy' }),
     NgbModule,
     FontAwesomeModule
   ],
