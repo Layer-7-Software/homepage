@@ -2,4 +2,4 @@
 
 The homepage for Layer 7.
 
-![Layer 7 Homepage](screenshot.jpg)
+![Layer 7 Homepage](./docs/screenshot.jpg)
