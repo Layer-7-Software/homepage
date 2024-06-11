@@ -8,10 +8,10 @@ export const Devs = () => {
     {
       name: 'Adam Swanson',
       img: AdamImg,
-      primaryLink: 'https://adam.layerseven.net',
+      primaryLink: 'https://adamswanson.dev',
       links: [
-        { url: 'https://adam.layerseven.net', icon: <Public /> },
-        { url: 'https://blog.layerseven.net', icon: <Create /> },
+        { url: 'https://adamswanson.dev', icon: <Public /> },
+        { url: 'https://blog.adamswanson.dev', icon: <Create /> },
         { url: 'https://github.com/theaswanson', icon: <GitHub /> },
         { url: 'https://twitter.com/crisp2020', icon: <Twitter /> },
         { url: 'https://linkedin.com/in/adam-swanson/', icon: <LinkedIn /> },
