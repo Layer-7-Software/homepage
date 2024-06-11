@@ -1,4 +1,4 @@
-import { Email, Twitter } from "@mui/icons-material";
+import { Email, X } from "@mui/icons-material";
 import { SocialItem } from "../../types";
 import { Devs } from "./Devs";
 import Logo from '../../assets/logo.png';
@@ -7,7 +7,7 @@ import Discord from "../../components/icons/Discord";
 
 export const Home = () => {
   const socials: SocialItem[] = [
-    { url: 'https://twitter.com/Layer7Official', icon: <Twitter /> },
+    { url: 'https://x.com/Layer7Official', icon: <X /> },
     { url: 'https://discord.gg/ZFbYZNtDsa', icon: <Discord /> },
     { url: 'mailto:layersevenmail@gmail.com', icon: <Email /> },
   ];

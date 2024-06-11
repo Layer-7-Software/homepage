@@ -1,4 +1,4 @@
-import { Create, GitHub, LinkedIn, Public, Twitter } from "@mui/icons-material";
+import { Create, GitHub, LinkedIn, Public, X } from "@mui/icons-material";
 import { Developer } from "../../types";
 import AdamImg from '../../assets/crisp.jpg';
 import './Devs.scss'
@@ -13,7 +13,7 @@ export const Devs = () => {
         { url: 'https://adamswanson.dev', icon: <Public /> },
         { url: 'https://blog.adamswanson.dev', icon: <Create /> },
         { url: 'https://github.com/theaswanson', icon: <GitHub /> },
-        { url: 'https://twitter.com/crisp2020', icon: <Twitter /> },
+        { url: 'https://x.com/crisp2020', icon: <X /> },
         { url: 'https://linkedin.com/in/adam-swanson/', icon: <LinkedIn /> },
       ]
     }
@@ -39,8 +39,8 @@ export const Devs = () => {
               </a>
             ))}
           </div>
-        </div >
+        </div>
       ))}
-    </div >
+    </div>
   )
 }
